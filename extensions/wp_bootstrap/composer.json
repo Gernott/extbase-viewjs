@@ -1,0 +1,23 @@
+{
+    "name": "webprofil/wp-bootstrap",
+    "type": "typo3-cms-extension",
+    "description": "Sitepackage",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^10.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WEBprofil\\WpBootstrap\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WEBprofil\\WpBootstrap\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "webprofil/wp-bootstrap": "self.version",
+        "typo3-ter/wp-bootstrap": "self.version"
+    }
+}

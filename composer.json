@@ -39,7 +39,8 @@
 		"typo3/cms-t3editor": "^10.4",
 		"typo3/cms-tstemplate": "^10.4",
 		"typo3/cms-viewpage": "^10.4",
-		"webprofil/erp-customer": "@dev"
+		"webprofil/erp-customer": "@dev",
+		"webprofil/wp-bootstrap": "@dev"
 	},
 	"scripts":{
 		"typo3-cms-scripts": [
