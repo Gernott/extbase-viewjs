@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:erp_customer/Resources/Private/Language/locallang_csh" date="2020-12-18T07:56:39Z" product-name="erp_customer">
+		<header/>
+		<body>
+			<trans-unit id="first_name.description" resname="first_name.description">
+				<source>Firstname</source>
+			</trans-unit>
+			<trans-unit id="last_name.description" resname="last_name.description">
+				<source>Lastname</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

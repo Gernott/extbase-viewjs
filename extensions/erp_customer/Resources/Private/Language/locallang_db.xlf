@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="EXT:erp_customer/Resources/Private/Language/locallang_db" date="2020-12-18T07:56:39Z" product-name="erp_customer">
+		<header/>
+		<body>
+			<trans-unit id="tx_erpcustomer_domain_model_customer" resname="tx_erpcustomer_domain_model_customer">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_erpcustomer_domain_model_customer.name" resname="tx_erpcustomer_domain_model_customer.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_erpcustomer_domain_model_customer.address" resname="tx_erpcustomer_domain_model_customer.address">
+				<source>Address</source>
+			</trans-unit>
+			<trans-unit id="tx_erpcustomer_domain_model_customer.persons" resname="tx_erpcustomer_domain_model_customer.persons">
+				<source>Persons</source>
+			</trans-unit>
+			<trans-unit id="tx_erpcustomer_domain_model_person" resname="tx_erpcustomer_domain_model_person">
+				<source>Person</source>
+			</trans-unit>
+			<trans-unit id="tx_erpcustomer_domain_model_person.first_name" resname="tx_erpcustomer_domain_model_person.first_name">
+				<source>First Name</source>
+			</trans-unit>
+			<trans-unit id="tx_erpcustomer_domain_model_person.last_name" resname="tx_erpcustomer_domain_model_person.last_name">
+				<source>Last Name</source>
+			</trans-unit>
+			<trans-unit id="tx_erp_customer_customer.name" resname="tx_erp_customer_customer.name">
+				<source>Customer</source>
+			</trans-unit>
+			<trans-unit id="tx_erp_customer_customer.description" resname="tx_erp_customer_customer.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
