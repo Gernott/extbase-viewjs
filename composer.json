@@ -1,4 +1,8 @@
 {
+	"repositories": [
+		{ "type": "composer", "url": "https://composer.typo3.org/" },
+		{ "type": "path", "url": "extensions/*" }
+	],
 	"name": "typo3/cms-base-distribution",
 	"description" : "TYPO3 CMS Base Distribution",
 	"license": "GPL-2.0-or-later",
@@ -34,7 +38,8 @@
 		"typo3/cms-sys-note": "^10.4",
 		"typo3/cms-t3editor": "^10.4",
 		"typo3/cms-tstemplate": "^10.4",
-		"typo3/cms-viewpage": "^10.4"
+		"typo3/cms-viewpage": "^10.4",
+		"webprofil/erp-customer": "@dev"
 	},
 	"scripts":{
 		"typo3-cms-scripts": [
@@ -44,5 +49,8 @@
 		"post-autoload-dump": [
 			"@typo3-cms-scripts"
 		]
+	},
+	"require-dev": {
+		"friendsoftypo3/extension-builder": "dev-v10-compatibility"
 	}
 }
