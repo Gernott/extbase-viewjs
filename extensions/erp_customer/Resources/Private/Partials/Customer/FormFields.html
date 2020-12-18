@@ -2,9 +2,10 @@
 <label for="name">
 	<f:translate key="tx_erpcustomer_domain_model_customer.name" /> <span class="required">(required)</span>
 </label><br />
-	<f:form.textfield property="name" id="name" /><br />
+	<f:form.textfield additionalAttributes="{v-model:'name'}" property="name" id="name" /><br />
 <label for="address">
 	<f:translate key="tx_erpcustomer_domain_model_customer.address" />
 </label><br />
-	<f:form.textfield property="address" id="address" /><br />
+	<f:form.textfield additionalAttributes="{v-model:'address'}" property="address" id="address" /><br />
+{{ summary }}
 </html>

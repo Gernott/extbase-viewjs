@@ -5,4 +5,9 @@ config {
 page = PAGE
 page {
     10 < styles.content.get
+    includeJSFooter.project = EXT:wp_bootstrap/Resources/Public/Project.js
+    #includeJSFooterlibs.vue = EXT:wp_bootstrap/Resources/Public/node_modules/vue/dist/vue.js
+    #includeJSFooterlibs.vueRuntime = EXT:wp_bootstrap/Resources/Public/node_modules/vue/dist/vue.runtime.js
+    includeJS.vue = https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js
+    includeJSFooterlibs.vue.external = 1
 }
